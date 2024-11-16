@@ -1,26 +1,16 @@
-// src/router/index.js
-import { createRouter, createWebHistory } from 'vue-router'; // For Vue 3
-// For Vue 2, you would use `import VueRouter from 'vue-router';`
-
 import Home from './views/Home.vue'; // Import your components
 import AdminPanelPage from './views/AdminPanelPage.vue';
 
-const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/admin-panel',
-    name: 'AdminPanel',
-    component: AdminPanelPage
-  }
-];
+
+import { createRouter, createWebHistory } from 'vue-router';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes
+  routes: [
+    { path: '/', component: Home },
+    { path: '/admin-panel', component: AdminPanelPage },
+    // Add your other routes here
+  ],
 });
 
 export default router;

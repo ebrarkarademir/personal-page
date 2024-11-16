@@ -112,8 +112,8 @@
                 :class="[
                   'nav-indicator mr-4 h-px w-8 transition-all motion-reduce:transition-none',
                   {
-                    'w-16 bg-slate-200': activeSection === 'about', // When active
-                    'group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
+                    'w-20 bg-slate-200': activeSection === 'about', // When active
+                    'group-hover:w-20 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
                       activeSection !== 'about',
                   },
                 ]">
@@ -145,8 +145,8 @@
                 :class="[
                   'nav-indicator mr-4 h-px w-8 transition-all motion-reduce:transition-none',
                   {
-                    'w-16 bg-slate-200': activeSection === 'experience', // When active
-                    'group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
+                    'w-20 bg-slate-200': activeSection === 'experience', // When active
+                    'group-hover:w-20 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
                       activeSection !== 'experience',
                   },
                 ]">
@@ -178,8 +178,8 @@
                 :class="[
                   'nav-indicator mr-4 h-px w-8 transition-all motion-reduce:transition-none',
                   {
-                    'w-16 bg-slate-200': activeSection === 'projects', // When active
-                    'group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
+                    'w-20 bg-slate-200': activeSection === 'projects', // When active
+                    'group-hover:w-20 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
                       activeSection !== 'projects',
                   },
                 ]">
