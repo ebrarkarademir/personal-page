@@ -88,31 +88,34 @@
         </li>
       </ul>
     </div>
+    <footer class="lg:hidden text-center font-medium tracking-tight text-base text-slate-200">
+      <a href="/">Home</a>
+    </footer>
   </div>
 </template>
 
 <script setup>
 import { reactive } from "vue";
-import AddBlog from "../assets/add-blog.png";
-import EditBlog from "../assets/edit-blog.png";
-import ViewBlog from "../assets/view-blog.png";
-import ViewMeetings from "../assets/view-meetings.png";
-import AcceptMeeting from "../assets/accept-meeting.png";
-import UserMeetings from "../assets/user-meetings.png";
-import Notifications from "../assets/notifications.png";
-import AdminSettings from "../assets/admin-settings.png";
-import WorkingHours from "../assets/working-hours.png";
-import AttorneySettings from "../assets/attorney-settings.png";
-import Attorneys from "../assets/attorneys.png";
-import AppointmentStep1 from "../assets/appointment-step-1.png";
-import AppointmentStep2 from "../assets/appointment-step-2.png";
-import AppointmentStep3 from "../assets/appointment-step-3.png";
-import AppointmentStep4 from "../assets/appointment-step-4.png";
-import AppointmentStep5 from "../assets/appointment-step-5.png";
-import Iyzico from "../assets/iyzico.png";
-import PaymentSuccess from "../assets/payment-success.png";
-import Mail1 from "../assets/mail-1.png";
-import Mail2 from "../assets/mail-2.png";
+import AddBlog from "../assets/add-blog.webp";
+import EditBlog from "../assets/edit-blog.webp";
+import ViewBlog from "../assets/view-blog.webp";
+import ViewMeetings from "../assets/view-meetings.webp";
+import AcceptMeeting from "../assets/accept-meeting.webp";
+import UserMeetings from "../assets/user-meetings.webp";
+import Notifications from "../assets/notifications.webp";
+import AdminSettings from "../assets/admin-settings.webp";
+import WorkingHours from "../assets/working-hours.webp";
+import AttorneySettings from "../assets/attorney-settings.webp";
+import Attorneys from "../assets/attorneys.webp";
+import AppointmentStep1 from "../assets/appointment-step-1.webp";
+import AppointmentStep2 from "../assets/appointment-step-2.webp";
+import AppointmentStep3 from "../assets/appointment-step-3.webp";
+import AppointmentStep4 from "../assets/appointment-step-4.webp";
+import AppointmentStep5 from "../assets/appointment-step-5.webp";
+import Iyzico from "../assets/iyzico.webp";
+import PaymentSuccess from "../assets/payment-success.webp";
+import Mail1 from "../assets/mail-1.webp";
+import Mail2 from "../assets/mail-2.webp";
 
 const projects = [
   {

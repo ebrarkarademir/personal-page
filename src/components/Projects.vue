@@ -78,7 +78,7 @@
             data-nimg="1"
             class="rounded border-2 w-full border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-4 sm:translate-y-1"
             style="color: transparent"
-            src="../assets/tiryaki-hukuk.png" />
+            src="../assets/tiryaki-hukuk.webp" />
         </div>
       </li>
       <li class="mb-12">
@@ -146,7 +146,7 @@
             data-nimg="1"
             class="rounded border-2 w-full border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-4 sm:translate-y-1"
             style="color: transparent"
-            src="../assets/view-blog.png" />
+            src="../assets/view-blog.webp" />
         </div>
       </li>
       <li>
@@ -209,7 +209,7 @@
             data-nimg="1"
             class="rounded border-2 w-full border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-4 sm:translate-y-1"
             style="color: transparent"
-            src="../assets/game-ai.png" />
+            src="../assets/game-ai.webp" />
         </div>
       </li>
     </ul>
