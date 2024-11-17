@@ -1,23 +1,24 @@
 <template>
   <header
-    class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+    class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/3 lg:flex-col lg:justify-between lg:py-24">
     <div>
       <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
         Ebrar Karademir
       </h1>
       <h2
-        class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
+        class="mt-2 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
         Software Engineer
       </h2>
-      <p class="mt-4 max-w-xs leading-normal">
+      <p class="mt-3 max-w-xs leading-normal">
         I like solving problems through programming and building things that
         help people.
       </p>
       <a
-        class="mt-3 group/korok inline-flex lg:font-medium text-slate-200 "
-        href="./public/resume_latest.pdf"
+        class="mt-2 group/korok inline-flex lg:font-medium text-slate-200 "
+        href="./resume_latest.pdf"
+        download
         target="_blank">
-        <span class="sr-only">Download my resume</span>
+        <span class="sr-only">Download my CV</span>
         <span
           class="group-hover/korok:text-red-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]"
           aria-hidden="true">
@@ -106,14 +107,14 @@
                 'group flex items-center py-3',
                 { active: activeSection === 'about' },
               ]"
-              href="#about">
+              href="/?view=main#about">
               <!-- Dynamic Indicator -->
               <span
                 :class="[
                   'nav-indicator mr-4 h-px w-8 transition-all motion-reduce:transition-none',
                   {
-                    'w-20 bg-slate-200': activeSection === 'about', // When active
-                    'group-hover:w-20 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
+                    'w-16 bg-slate-200': activeSection === 'about', // When active
+                    'group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
                       activeSection !== 'about',
                   },
                 ]">
@@ -139,14 +140,14 @@
                 'group flex items-center py-3',
                 { active: activeSection === 'experience' },
               ]"
-              href="#experience">
+              href="/?view=main#experience">
               <!-- Dynamic Indicator -->
               <span
                 :class="[
                   'nav-indicator mr-4 h-px w-8 transition-all motion-reduce:transition-none',
                   {
-                    'w-20 bg-slate-200': activeSection === 'experience', // When active
-                    'group-hover:w-20 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
+                    'w-16 bg-slate-200': activeSection === 'experience', // When active
+                    'group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
                       activeSection !== 'experience',
                   },
                 ]">
@@ -172,14 +173,14 @@
                 'group flex items-center py-3',
                 { active: activeSection === 'projects' },
               ]"
-              href="#projects">
+              href="/?view=main#projects">
               <!-- Dynamic Indicator -->
               <span
                 :class="[
                   'nav-indicator mr-4 h-px w-8 transition-all motion-reduce:transition-none',
                   {
-                    'w-20 bg-slate-200': activeSection === 'projects', // When active
-                    'group-hover:w-20 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
+                    'w-16 bg-slate-200': activeSection === 'projects', // When active
+                    'group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 bg-slate-600':
                       activeSection !== 'projects',
                   },
                 ]">
@@ -214,7 +215,7 @@
         </p>
         </li>
     </ul>
-    <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
+    <ul class="ml-1 mt-4 flex items-center" aria-label="Social media">
       <li class="mr-5 shrink-0 text-xs">
         <a
           class="block hover:text-slate-200"
