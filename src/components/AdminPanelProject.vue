@@ -89,7 +89,7 @@
       </ul>
     </div>
     <footer class="lg:hidden text-center font-medium tracking-tight text-base text-slate-200">
-      <a href="/">Home</a>
+      <a href="/personal-page/">Home</a>
     </footer>
   </div>
 </template>
