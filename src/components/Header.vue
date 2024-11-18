@@ -15,7 +15,7 @@
       </p>
       <a
         class="mt-2 group/korok inline-flex lg:font-medium text-slate-200 "
-        href="./resume_latest.pdf"
+        href="./mehmet_ebrar_karademir_cv.pdf"
         download
         target="_blank">
         <span class="sr-only">Download my CV</span>
